@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Meu Amor 💖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #ffdee9, #b5fffc);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 50px;
+        }
+
+        .carta {
+            background-color: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 700px;
+            margin: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .carta:hover {
+            transform: scale(1.01);
+        }
+
+        .btn-personalizado {
+            background-color: #ff4d6d;
+            color: white;
+            border: none;
+        }
+
+        .btn-personalizado:hover {
+            background-color: #ff1c47;
+        }
+
+        .mensagem-secreta {
+            display: none;
+            margin-top: 20px;
+            font-weight: bold;
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carta text-center">
+        <h1 class="mb-4">Para o amor da minha vida 💖</h1>
+
+
+        <button onclick="mostrarMensagem()" class="btn btn-personalizado mt-4">
+            Clique para uma surpresa 💌
+        </button>
+
+        <div id="mensagem" class="mensagem-secreta">
+           Meu amor fiz isso para mostrar o tanto que te amo, sabe que tudo o que eu sou hoje e porque eu fui moldado por você, um dia eu espero colocar uma anel em seu mão esquerdo, se Deus permitir isso que tomara que ele permita vamos ser uns dos melhores casais do mundo.💕
+           <br>
+           quando eu te vejo meu coração acelera, como nao é um aniversario de namoro em nem nada mais é um dia muito importante porque você e muito importante e como eu cou te ver é um dia importante.
+           <a href="fotos.html">Ainda não acabou!!</a>
+          </div>
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            const msg = document.getElementById("mensagem");
+            msg.style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
